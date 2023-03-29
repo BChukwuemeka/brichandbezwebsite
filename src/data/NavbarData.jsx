@@ -7,14 +7,13 @@ export const data = [
 	{
 		to: '/about',
 		text: 'About',
-		id: 'about',
 	},
 	{
-		to: '/pricing',
+		to: '/Pricing',
 		text: 'Pricing',
 	},
 	{
-		to: '/signup',
+		to: '/Signup',
 		text: 'Contact',
 	},
 ];

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Button, MainHeading } from "../../globalStyles";
+import { Button, Container, MainHeading } from "../../globalStyles";
 import { ButtonWrapper, HeroButton, HeroSection, HeroText, HeroVideo } from "./HeroStyles";
 
 
@@ -8,7 +8,7 @@ const Hero = () => {
     return ( 
         <HeroSection>
             <HeroVideo src="./assets/hero.mp4"  autoPlay muted/>
-            <container>
+            <Container>
                 <MainHeading>Your data is secure with us</MainHeading>
                 <HeroText>
                     We provide the best security systems for clients all over the world
@@ -19,7 +19,7 @@ const Hero = () => {
                     </Link>
                     <HeroButton>Find More</HeroButton>
                 </ButtonWrapper>
-            </container>
+            </Container>
         </HeroSection>
      );
 }

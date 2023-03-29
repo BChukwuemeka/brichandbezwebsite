@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Section } from '../../globalStyles';
+import { Container } from '../../globalStyles';
 import {
 	FeatureText,
 	FeatureTitle,

@@ -6,7 +6,7 @@ import { Section } from '../../globalStyles';
 
 
 export const FeaturesSection = styled(Section)`
-	background: linear-gradient(to right, #05002cd3, #343441);
+	background: linear-gradient(to right, #FFF, #343441);
 
 `
 
